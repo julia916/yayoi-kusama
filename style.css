@@ -1,0 +1,107 @@
+/* 
+REFERENCING A CLASS 
+div.headline {
+    padding: 200px;
+    text-align: center;
+  } 
+*/
+
+/*REFERENCING AN ID */
+#Header {
+    /*padding-left: 500px;*/
+    background-color: rgb(231, 255, 16);
+    width: 17%;
+    color: black;
+    font-weight: lighter;
+    font-family: 'Potta One', cursive;
+    text-align: center;
+}
+
+#Contents{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    /*
+    width: 10%;
+    border-style: ridge;
+    */
+}
+
+#Paragraph{
+    font-family: 'Arial';
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+#subtitle{
+    font-family: 'Arial';
+    font-size: 14px;
+    text-align: center;
+}
+
+#Year{
+    font-family: 'Oswald', sans-serif; 
+    text-align: center;
+    font-size: 24px;
+}
+
+#Month{
+    font-family: 'Oswald', sans-serif; 
+    text-align: center;
+}
+
+#bookTitles{
+    font-family: 'Arial';
+    font-size: 14px;
+    text-align: center;
+}
+
+#Footer{
+    background-color: rgb(189, 189, 189);
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+/*---Nav Bar CSS----------------------------------------------*/
+/* Add a black background color to the top navigation */
+.topnav {
+    padding-left: 480px;
+    background-color: black; /* rgb(172, 250, 93);*/
+    overflow: hidden;
+    font-family:'Oswald', sans-serif;
+    color:black;
+    /*width: 50%;*/
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: wheat; /* #f2f2f2;*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(231, 255, 16); /*#ddd;*/
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #333333;
+    color:rgb(231, 255, 16); /**/
+  }
+    
